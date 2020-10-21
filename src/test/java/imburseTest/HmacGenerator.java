@@ -10,7 +10,6 @@ import java.security.InvalidKeyException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
-import java.security.NoSuchAlgorithmException;
 
 
 public class HmacGenerator {
@@ -74,14 +73,5 @@ public class HmacGenerator {
         System.out.println("Token: " + token);
         return token;
     }
-    public static void main (String[] args) {
-        try{
-            HmacGenerator hmacGenerator = new HmacGenerator();
-            String token = hmacGenerator.createToken("");
-        } catch(Exception e){
-        }
-        
-    }
-
 }
 
