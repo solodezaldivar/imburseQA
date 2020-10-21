@@ -1,0 +1,1016 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-14T14:08:32.694Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "imburseTest.scenarios.CreateOrder.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Instruction reference longer than 50 chars",
+        "description": "",
+        "id": "create-instruction;instruction-reference-longer-than-50-chars",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4433577400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the endpoint \"/order-management\" exists and accessToken is granted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/order-management\"",
+                  "offset": 13
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.setUp(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154117800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "trying to create instruction \"asdferwtfgefgh_adwv_werf_fefsegohltpeadsfg_fklbpppp\" for \"test__ramon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asdferwtfgefgh_adwv_werf_fefsegohltpeadsfg_fklbpppp\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 87
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstruction(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[InstructionRef [asdferwtfgefgh_adwv_werf_fefsegohltpeadsfg_fklbpppp] exceeds the maximum length [50].]"
+            ],
+            "result": {
+              "duration": 39896100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-14T14:08:37.444Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "imburseTest.scenarios.CreateOrder.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Instruction reference has invalid chars",
+        "description": "",
+        "id": "create-instruction;instruction-reference-has-invalid-chars",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 218489000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the endpoint \"/order-management\" exists and accessToken is granted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/order-management\"",
+                  "offset": 13
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.setUp(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 124249700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "trying to create instruction \"asdferwtfgefgh_a/dwv_werf!\" for \"test__ramon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asdferwtfgefgh_a/dwv_werf!\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 62
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstruction(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[InstructionRef [asdferwtfgefgh_a/dwv_werf!] contains invalid characters.]"
+            ],
+            "result": {
+              "duration": 20942300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-14T14:08:37.827Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "imburseTest.scenarios.CreateOrder.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Instruction reference is empty",
+        "description": "",
+        "id": "create-instruction;instruction-reference-is-empty",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 167668900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the endpoint \"/order-management\" exists and accessToken is granted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/order-management\"",
+                  "offset": 13
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.setUp(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2564944300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "trying to create instruction \"\" for \"test__ramon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 36
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstruction(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[InstructionRef is required.]"
+            ],
+            "result": {
+              "duration": 13964400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-14T14:08:40.584Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "imburseTest.scenarios.CreateOrder.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Instruction has invalid chars",
+        "description": "",
+        "id": "create-instruction;instruction-has-invalid-chars",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 163686400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the endpoint \"/order-management\" exists and accessToken is granted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/order-management\"",
+                  "offset": 13
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.setUp(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90033100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "trying to create instruction \"awdvefs4!cac/afw.\" for \"test__ramon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"awdvefs4!cac/afw.\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 53
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstruction(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[InstructionRef [awdvefs4!cac/afw.] contains invalid characters.]"
+            ],
+            "result": {
+              "duration": 9953100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-14T14:08:40.856Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "imburseTest.scenarios.CreateOrder.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "amount has an invalid format",
+        "description": "",
+        "id": "create-instruction;amount-has-an-invalid-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 179044700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the endpoint \"/order-management\" exists and accessToken is granted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/order-management\"",
+                  "offset": 13
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.setUp(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91224300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "trying to create instruction \"abcd\" for \"test__ramon\" with invalid amount \"100..1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"100..1\"",
+                  "offset": 74
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstructionInvalidAmount(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[Amount [100..1] is not a valid decimal.]"
+            ],
+            "result": {
+              "duration": 18950800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108707700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "trying to create instruction \"abcd\" for \"test__ramon\" with invalid amount \"abaaH\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"abaaH\"",
+                  "offset": 74
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstructionInvalidAmount(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[Amount [abaaH] is not a valid decimal.]"
+            ],
+            "result": {
+              "duration": 14503500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-14T14:08:41.282Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "imburseTest.scenarios.CreateOrder.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "currency has an invalid format",
+        "description": "",
+        "id": "create-instruction;currency-has-an-invalid-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180515300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the endpoint \"/order-management\" exists and accessToken is granted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/order-management\"",
+                  "offset": 13
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.setUp(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86769400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "trying to create instruction \"abcd\" for \"test__ramon\" with invalid currency \"euro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"euro\"",
+                  "offset": 76
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstructionInvalidCurrency(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[Currency [euro] must be in ISO 4217 currency code.]"
+            ],
+            "result": {
+              "duration": 9967500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101727900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "trying to create instruction \"abcd\" for \"test__ramon\" with invalid currency \"CHF;\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"CHF;\"",
+                  "offset": 76
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstructionInvalidCurrency(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[Currency [CHF;] must be in ISO 4217 currency code.]"
+            ],
+            "result": {
+              "duration": 13965300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 106227400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "trying to create instruction \"abcd\" for \"test__ramon\" with invalid currency \"a10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"a10\"",
+                  "offset": 76
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstructionInvalidCurrency(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[Currency [a10] is not supported.]"
+            ],
+            "result": {
+              "duration": 12963600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-14T14:08:41.802Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "imburseTest.scenarios.CreateOrder.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "country code is in an invalid format",
+        "description": "",
+        "id": "create-instruction;country-code-is-in-an-invalid-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 205963100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the endpoint \"/order-management\" exists and accessToken is granted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/order-management\"",
+                  "offset": 13
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.setUp(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75797300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "trying to create instruction \"abcd\" for \"test__ramon\" with invalid country code \"iee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"iee\"",
+                  "offset": 80
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstructionInvalidCountry(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[Country [iee] must be an ISO 3166 Alpha-2 code.]"
+            ],
+            "result": {
+              "duration": 15960500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99729100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "trying to create instruction \"abcd\" for \"test__ramon\" with invalid country code \"F.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"F.\"",
+                  "offset": 80
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstructionInvalidCountry(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[Country [F.] is not supported.]"
+            ],
+            "result": {
+              "duration": 18949300,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-14T14:08:42.230Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "imburseTest.scenarios.CreateOrder.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "directon is in an invalid format",
+        "description": "",
+        "id": "create-instruction;directon-is-in-an-invalid-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142645800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the endpoint \"/order-management\" exists and accessToken is granted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/order-management\"",
+                  "offset": 13
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.setUp(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75795300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "trying to create instruction \"abcd\" for \"test__ramon\" with invalid direction \"d0abit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"d0abit\"",
+                  "offset": 77
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstructionInvalidDirection(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[Direction [d0abit] must be either CREDIT or DEBIT.]"
+            ],
+            "result": {
+              "duration": 11977200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-14T14:08:42.470Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "imburseTest.scenarios.CreateOrder.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "schemeId is invalid",
+        "description": "",
+        "id": "create-instruction;schemeid-is-invalid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178521400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "the endpoint \"/order-management\" exists and accessToken is granted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/order-management\"",
+                  "offset": 13
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.setUp(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93087400,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "trying to create and instruction \"abcd\" for \"test__ramon\" with invalid schemeId \"654EB81FF7F17F7CF5A1EE3FF6972E90\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"test__ramon\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"654EB81FF7F17F7CF5A1EE3FF6972E90\"",
+                  "offset": 80
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.createInstructionInvalidSchemeId(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "[WorkflowId [654EB81FF7F17F7CF5A1EE3FF6972E90] is not recognised.]"
+            ],
+            "result": {
+              "duration": 9992900,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "response status should be 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "imburseTest.scenarios.CreateOrder.checkResponseStatus(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      }
+    ],
+    "name": "Create Instruction",
+    "description": "",
+    "id": "create-instruction",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/imburseTest/createInstruction.feature",
+    "tags": [
+      {
+        "name": "@functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
