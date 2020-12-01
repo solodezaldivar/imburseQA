@@ -91,9 +91,6 @@ public class CreateOrderAndInstruction {
         @When("creating an order with metadata {string}:{string},{string}:{string},{string}:{string}")
         public void shouldCreateOrderWithMetadaVariables(String key1, String v1, String key2, String v2, String key3, String v3) {
                 String name = createRandomAlphabeticString();
-                if(key3=="null"){
-                        key3 = null;
-                }
                 response = given().contentType(ContentType.JSON).header("Authorization", "bearer " + accessToken)
                         .header("x-account-id", accountId).header("x-tenant-id", tenantId)
                         .body("{ \"orderRef\" : \"{{name}}\", \"metadata\": { \"{{key1}}\": \"{{v1}}\",\"{{key2}}\": \"{{v2}}\",\"{{key3}}\": \"{{v3}}\" }}"
