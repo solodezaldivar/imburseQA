@@ -3,7 +3,7 @@
         stages {
             stage('Test') {
                 steps {
-                    echo 'Working!!'
+                    echo 'Working!'
                 }
             }
         }
