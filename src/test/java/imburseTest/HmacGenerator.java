@@ -71,6 +71,7 @@ public class HmacGenerator {
         String token = String.format("hmac %s:%s:%s:%s", publicKey, nonce, seconds, signedSigniture);
         System.out.println("Token: " + token);
         return token;
+        
     }
 }
 
